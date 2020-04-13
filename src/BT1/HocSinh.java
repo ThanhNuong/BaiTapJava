@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Bai5;
+package BT1;
 
 public class HocSinh extends CaNhan{
     private String lop;

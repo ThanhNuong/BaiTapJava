@@ -6,7 +6,7 @@
 package Bai1;
 
 
-public class Main {
+public class MainBai1 {
     public static void main(String[] args) {
         
     //Khởi tạo hai biến nhân viên
