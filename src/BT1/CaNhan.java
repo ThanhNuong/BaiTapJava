@@ -5,15 +5,17 @@
  */
 package BT1;
 
-public abstract class CaNhan {
+public abstract class CaNhan {//lop truu tuong
     protected String hoTen;
     protected int tuoi;
     protected String diaChi;
     protected String sdt;
 
+    //khoi tao khong tham so
     public CaNhan() {
     }
 
+    //khoi tao co tham so
     public CaNhan(String hoTen, int tuoi, String diaChi, String sdt) {
         this.hoTen = hoTen;
         this.tuoi = tuoi;
@@ -21,6 +23,7 @@ public abstract class CaNhan {
         this.sdt = sdt;
     }
 
+    //phuong thuc get
     public String getHoTen() {
         return hoTen;
     }
@@ -37,6 +40,7 @@ public abstract class CaNhan {
         return sdt;
     }
 
+    //phuong thuc set
     public void setHoTen(String hoTen) {
         this.hoTen = hoTen;
     }
@@ -53,5 +57,6 @@ public abstract class CaNhan {
         this.sdt = sdt;
     }
     
+    //phuong thuc truu tuong 
     public abstract String HienThiTT();
 }

@@ -5,7 +5,6 @@
  */
 package Bai1;
 
-
 public class NhanVien {
     //Cac thuoc tinh lop NhanVien
     public String ten;
@@ -15,12 +14,10 @@ public class NhanVien {
     public int tongSoGioLam;
     
     //Xay dung ham Constructor khong tham so
-
     public NhanVien() {
     }
     
     //Xay dung ham Constructor có tham so
-
     public NhanVien(String ten, int tuoi, String diaChi, double tienLuong, int tongSoGioLam) {
         this.ten = ten;
         this.tuoi = tuoi;
@@ -30,7 +27,6 @@ public class NhanVien {
     }
     
     //Xay dung ham get
-
     public String getTen() {
         return ten;
     }
@@ -53,7 +49,6 @@ public class NhanVien {
     
     
     //Xay dung ham setNhanVien
-
     public void setTen(String ten) {
         this.ten = ten;
     }

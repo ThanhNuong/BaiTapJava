@@ -6,9 +6,9 @@
 package BT1;
 
 
-public class GiaoVien extends CaNhan{
-    protected String monDay;
-    protected String toBoMon;
+public class GiaoVien extends CaNhan{ //lop GiaoVien ke thua tu lop CaNhan
+    private String monDay;
+    private String toBoMon;
 
     public GiaoVien() {
     }

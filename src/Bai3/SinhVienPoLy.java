@@ -6,8 +6,8 @@
 package Bai3;
 
 public abstract class SinhVienPoLy {//lop truu tuong (do co phuong thuc getDiem() laf phuong thuc truu tuong)
-    private String hoTen;
-    private String nganh;
+    protected String hoTen;
+    protected String nganh;
 
     //ham Constructor không tham số
     public SinhVienPoLy() {
@@ -20,7 +20,6 @@ public abstract class SinhVienPoLy {//lop truu tuong (do co phuong thuc getDiem(
     }
     
     //Hàm get
-
     public String getHoTen() {
         return hoTen;
     }

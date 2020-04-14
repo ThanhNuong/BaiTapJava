@@ -27,7 +27,6 @@ public class MainBai2 {
         qlnv.them(nv4);
         qlnv.them(nv5);
         
-        
         //In danh sách nhân viên
         qlnv.inDS();
     }

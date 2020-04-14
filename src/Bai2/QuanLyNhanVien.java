@@ -5,24 +5,30 @@
  */
 package Bai2;
 import Bai1.NhanVien;
+import java.util.ArrayList;
 
 public class QuanLyNhanVien implements IQuanLy{
-    NhanVien[] NV = new NhanVien[10];
-    int n = 0;
+    ArrayList<NhanVien> qlnv = new ArrayList<>();
+
+    public QuanLyNhanVien() {
+    }
     
+    public QuanLyNhanVien(ArrayList<NhanVien> qlnv){
+        this.qlnv = qlnv;
+    }
+            
     //Ham ghi de them doi tuong nhan vien
     @Override
     public void them(NhanVien nv){
-        NV[n] = nv;
-        n++;
+        qlnv.add(nv);
     }
     
     //Ham in danh sach 
     @Override
     public void inDS(){
-        for(int i=0; i<n;i++){
-            System.out.println("\nThong tin nhan vien thu "+(i+1));
-            NV[i].getThongTin();
+        for(int i=0; i<qlnv.size();i++){
+            System.out.println("\nThong tin nhan vien thu: "+i);
+            qlnv.get(i).getThongTin();
         }
     }
 

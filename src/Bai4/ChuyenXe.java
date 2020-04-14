@@ -5,16 +5,17 @@
  */
 package Bai4;
 
-
 public class ChuyenXe {
     protected String maSoChuyen;
     protected String hoTenTaiXe;
     protected String soXe;
     protected double doanhThu;
 
+    //khoi tao ham khong tham so
     public ChuyenXe() {
     }
 
+    //khoi tao ham co tham so
     public ChuyenXe(String maSoChuyen, String hoTenTaiXe, String soXe, double doanhThu) {
         this.maSoChuyen = maSoChuyen;
         this.hoTenTaiXe = hoTenTaiXe;
@@ -22,6 +23,7 @@ public class ChuyenXe {
         this.doanhThu = doanhThu;
     }
 
+    //phuong thuc get
     public String getMaSoChuyen() {
         return maSoChuyen;
     }
@@ -38,6 +40,7 @@ public class ChuyenXe {
         return doanhThu;
     }
 
+    //phuong thuc set
     public void setMaSoChuyen(String maSoChuyen) {
         this.maSoChuyen = maSoChuyen;
     }
@@ -54,6 +57,7 @@ public class ChuyenXe {
         this.doanhThu = doanhThu;
     }
     
+    //phuong thuc hien thi thong tin chuyen xe
     public void HienThiTT(){
         System.out.println("Ma so chuyen xe: "+maSoChuyen);
         System.out.println("Ho ten tai xe: "+hoTenTaiXe);
